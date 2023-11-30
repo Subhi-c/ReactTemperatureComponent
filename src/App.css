@@ -1,0 +1,72 @@
+#root {
+  max-width: 1200px;
+  text-align: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.tempMain {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.kelvin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #dd6e6e;
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.celcius {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #032e603f;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 25%;
+  font-size: 24px;
+}
+
+.temperature {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.temp {
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+.header {
+  font-size: 50px;
+}
+.disable {
+  background-color: grey;
+  cursor: not-allowed;
+}
+.decrease,
+.increase {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+}
